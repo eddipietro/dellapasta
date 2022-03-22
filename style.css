@@ -1,0 +1,57 @@
+.logo, .inicio {
+    
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin: 5%;
+  }
+  
+  .inicio {
+    margin: auto;
+    margin: 5%;
+  }
+
+  .carrouselFoto {
+
+      margin-top: 5%;
+      height: 670px;
+      width: 100%;
+  }
+
+  .diametro {
+    margin: 50px;
+  }
+  
+  .transicion {
+    transition: all 0.4s;
+    margin-bottom: 5%;
+  }
+  
+  .transicion:hover {
+    box-shadow: 11px 11px 12px black;
+  }
+  .secciones {
+      width: 200px;
+      height: 200px;
+  }
+  .contenedorSecciones{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  footer {
+      background-color: black;
+  }
+
+
+
+  /******************
+SMARTPHONE
+******************/
+
+@media (min-width: 320px) and (max-width: 480px) {
+   #myCarousel {
+       
+       margin-top: 15%;
+   }
+    }
